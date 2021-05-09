@@ -1,2 +1,2 @@
-# canopy
+# Green-Shop
 Created with CodeSandbox

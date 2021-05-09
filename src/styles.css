@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-secondary);
+  padding: 0.5rem;
+  color: var(--color-primary);
+}
+.nav-pills {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.hero-img {
+  height: 60vh;
+  width: 100vw;
+}
+.hero-btn {
+  z-index: 1;
+  position: relative;
+  top: -10rem;
+  left: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.fc-heading {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+}
+
+.product-listing-page {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+fieldset {
+  border: none;
+  margin: 1rem;
+}
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-design {
+  color: var(--color-primary);
+  margin: 2rem;
+}
+.product-list-item {
+  max-width: 250px;
+}
+
+.card-design:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.home-cards {
+  display: flex;
+
+  text-align: center;
+}
+
+.home-card {
+  max-width: 250px;
+}
+
+.card-horizontal:hover {
+  transform: none;
+}
+
+.fa-shopping-cart {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  color: var(--color-hover);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
